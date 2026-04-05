@@ -1,4 +1,9 @@
+![Problem](problem.png)
+![Solution](solution.png)
+
 # Zomato KPT Optimization – Improving ETA Accuracy
+
+> Designed a scalable system to improve ETA prediction accuracy by replacing single-point inputs with a multi-signal feedback architecture.
 
 ## 🚨 Problem
 Zomato’s ETA predictions are inaccurate due to unreliable kitchen prep time (KPT) signals, caused by biased merchant inputs and lack of real-time system visibility.
@@ -21,9 +26,9 @@ Designed a multi-signal KPT prediction system that improves ETA accuracy by comb
 - Modeled hidden kitchen congestion using proxy signals
 
 ## 📈 Impact
-- Improved ETA prediction accuracy
-- Reduced rider idle time at restaurants
-- Scalable across 300K+ merchants
+- Reduced dependency on unreliable merchant inputs
+- Improved ETA prediction robustness across edge cases
+- Enabled scalable deployment across 300K+ merchants
 
 ## 🧠 Product Thinking
 Instead of relying on a single input (merchant marking), I designed a system combining:
@@ -37,9 +42,9 @@ This makes ETA prediction more robust and scalable.
 [zomato-kpt-case-study.pdf](./zomato-kpt-case-study.pdf)
 
 ## 📊 Datasets
-1) Zomato Orders Dataset (https://docs.google.com/spreadsheets/d/1qC1GQ606XoGxHjob17DloTxdiXXABtP3/edit?
-usp=sharing&ouid=104015938540875365368&rtpof=true&sd=true)
-2) Rider Activity Dataset (https://docs.google.com/spreadsheets/d/1Q-6CgcgKVVziZnz7iRQ9EJBV9NTeseOV/edit?
-usp=sharing&ouid=104015938540875365368&rtpof=true&sd=true)
-3) Merchant Performance Dataset (https://docs.google.com/spreadsheets/d/1sbhNaCrCOxxvmu9clEUtR1LVlmFeqmcT/edit?
-usp=sharing&ouid=104015938540875365368&rtpof=true&sd=true)
+- [Zomato Orders Dataset](https://docs.google.com/spreadsheets/d/1qC1GQ606XoGxHjob17DloTxdiXXABtP3/edit)
+- [Rider Activity Dataset](https://docs.google.com/spreadsheets/d/1Q-6CgcgKVVziZnz7iRQ9EJBV9NTeseOV/edit)
+- [Merchant Performance Dataset](https://docs.google.com/spreadsheets/d/1sbhNaCrCOxxvmu9clEUtR1LVlmFeqmcT/edit)
+
+## 💻 Model / Analysis
+[View Google Colab Notebook](https://colab.research.google.com/drive/1yONZ4VGUR9IMtQ84z02U0mlnODd10Mlf)
