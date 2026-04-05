@@ -1,5 +1,6 @@
 ![Problem](problem.png)
 ![Solution](solution.png)
+![Dashboard](dashboard.png)
 
 # Zomato KPT Optimization – Improving ETA Accuracy
 
