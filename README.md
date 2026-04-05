@@ -35,3 +35,11 @@ This makes ETA prediction more robust and scalable.
 
 ## 📎 Case Study
 [zomato-kpt-case-study.pdf](./zomato-kpt-case-study.pdf)
+
+## 📊 Datasets
+1) Zomato Orders Dataset (https://docs.google.com/spreadsheets/d/1qC1GQ606XoGxHjob17DloTxdiXXABtP3/edit?
+usp=sharing&ouid=104015938540875365368&rtpof=true&sd=true)
+2) Rider Activity Dataset (https://docs.google.com/spreadsheets/d/1Q-6CgcgKVVziZnz7iRQ9EJBV9NTeseOV/edit?
+usp=sharing&ouid=104015938540875365368&rtpof=true&sd=true)
+3) Merchant Performance Dataset (https://docs.google.com/spreadsheets/d/1sbhNaCrCOxxvmu9clEUtR1LVlmFeqmcT/edit?
+usp=sharing&ouid=104015938540875365368&rtpof=true&sd=true)
